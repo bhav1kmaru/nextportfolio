@@ -123,6 +123,7 @@ export default function Bar() {
       <Navbar.Collapse>
         {collapseItems.map((item, index) => (
           <Navbar.CollapseItem
+          onClick={() => router.push('/#skills')}
             key={item}
             activeColor="secondary"
             // css={{
@@ -137,7 +138,7 @@ export default function Bar() {
                 minWidth: "100%",
               }}
              
-             onClick={() => router.push('/#skills')}
+             
             >
               {item}
             </Text>
