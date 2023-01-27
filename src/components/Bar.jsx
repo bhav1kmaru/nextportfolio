@@ -131,7 +131,7 @@ export default function Bar() {
             // isActive={index === 2}
             isActive={currentPage == item.toLowerCase()}
           >
-            <Link
+            <Navbar.Link
               color="inherit"
               css={{
                 minWidth: "100%",
@@ -140,7 +140,7 @@ export default function Bar() {
               onClick={() => setCurrentPage(item.toLowerCase())}
             >
               {item}
-            </Link>
+            </Navbar.Link>
           </Navbar.CollapseItem>
         ))}
         <Navbar.CollapseItem>
