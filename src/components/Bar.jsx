@@ -131,16 +131,16 @@ export default function Bar() {
             // isActive={index === 2}
             isActive={currentPage == item.toLowerCase()}
           >
-            <Link
+            <Text
               color="inherit"
               css={{
                 minWidth: "100%",
               }}
-              href={`#${item.toLowerCase()}`}
-//               onClick={() => setCurrentPage(item.toLowerCase())}
+             
+             onClick={() => router.push(`/${item}`)}
             >
               {item}
-            </Link>
+            </Text>
           </Navbar.CollapseItem>
         ))}
         <Navbar.CollapseItem>
