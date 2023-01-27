@@ -137,7 +137,7 @@ export default function Bar() {
                 minWidth: "100%",
               }}
               href={`#${item.toLowerCase()}`}
-              onClick={() => setCurrentPage(item.toLowerCase())}
+//               onClick={() => setCurrentPage(item.toLowerCase())}
             >
               {item}
             </Link>
