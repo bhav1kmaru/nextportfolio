@@ -137,7 +137,7 @@ export default function Bar() {
                 minWidth: "100%",
               }}
              
-             onClick={() => router.push('/skills')}
+             onClick={() => router.push('/#skills')}
             >
               {item}
             </Text>
