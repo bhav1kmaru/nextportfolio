@@ -137,7 +137,7 @@ export default function Bar() {
                 minWidth: "100%",
               }}
              
-             onClick={() => router.push(`/${item}`)}
+             onClick={() => router.push(`/#${item.toLowerCase()}`)}
             >
               {item}
             </Text>
